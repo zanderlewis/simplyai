@@ -1,2 +1,3 @@
 numpy
 tensorflow
+sqlite3 # If using a database
