@@ -1,9 +1,8 @@
 # simplyai
 
- Simple AI creation framework in Python using TensorFlow.
-
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
+ Simple AI creation framework in Python using TensorFlow.
 
 ## Table of Contents
 
