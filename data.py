@@ -27,6 +27,16 @@ positive = [
     ("You are super nice.", 1),
     ("You are extremely positive", 1),
     ("Mrs. Negative is a positive figure, despite her name.", 1),
+    ("This is fantastic!", 1),
+    ("What an incredible experience!", 1),
+    ("I'm thrilled with this outcome!", 1),
+    ("This is top-notch!", 1),
+    ("I'm blown away by this!", 1),
+    ("This is a game-changer.", 1),
+    ("I'm over the moon about this!", 1),
+    ("This is a winner in my book!", 1),
+    ("I'm ecstatic about this!", 1),
+    ("This is a huge success!", 1),
 ]
 
 negative = [
@@ -55,10 +65,21 @@ negative = [
     ("You are a very negative person", 0),
     ("I think you are an idiot.", 0),
     ("Mr. Positive is a negative figure.", 0),
+    ("This is a disaster!", 0),
+    ("What a terrible experience!", 0),
+    ("I'm very disappointed with this outcome.", 0),
+    ("This is subpar.", 0),
+    ("I'm not impressed by this at all.", 0),
+    ("This is a letdown.", 0),
+    ("I'm upset about this.", 0),
+    ("This is a flop in my book.", 0),
+    ("I'm frustrated with this.", 0),
+    ("This is a failure!", 0),
 ]
 
 items = positive + negative
 
+# Create a new database file
 open("data.db", "w").close()
 os.remove("data.db")
 
